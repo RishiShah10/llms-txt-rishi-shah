@@ -1,0 +1,17 @@
+aws_region      = "us-east-1"
+environment     = "production"
+api_domain      = "api.example.com"
+route53_zone_id = "Z0123456789ABCDEFGHIJ"
+vpc_id          = "vpc-xxxxxxxx"
+subnet_ids      = ["subnet-aaaaaaaa", "subnet-bbbbbbbb"]
+image_tag       = "latest"
+alarm_email     = "you@example.com"
+
+# App config / secrets (do NOT commit the real terraform.tfvars)
+database_url        = "postgresql://user:pass@host/db?sslmode=require"
+openrouter_api_key  = ""
+openrouter_model    = "openai/gpt-4o-mini"
+openrouter_base_url = "https://openrouter.ai/api/v1"
+bright_data_cdp_url = ""
+frontend_origin     = "https://your-frontend.vercel.app"
+cron_secret         = "generate-with: openssl rand -base64 32"

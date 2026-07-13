@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.db
+node_modules/
+.next/
+.env.local
+.superpowers/
+.env
+.env.*
+!.env.example
+docs/
+backend/uv.lock
+r2-info.txt
+.vercel
+.claude/skills/deploy-backend/
+
+# Terraform plan files embed every variable value (DB password, API keys). Never commit.
+terraform/tfplan
+*.tfplan

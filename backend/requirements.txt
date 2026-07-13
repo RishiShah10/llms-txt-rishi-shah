@@ -1,0 +1,10 @@
+fastapi==0.115.*
+uvicorn[standard]==0.32.*
+websockets<16
+httpx==0.27.*
+beautifulsoup4==4.12.*
+lxml==5.3.*
+pydantic==2.*
+playwright==1.*
+psycopg[binary]==3.*
+boto3==1.*

@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest==8.*
+anyio==4.*
+
+# local dev only: lets boto3 use the `aws login` credential provider
+botocore[crt]
